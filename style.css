@@ -1,0 +1,29 @@
+/* seletores
+
+seletor '#' -> seleciona o elemento pelo id: normalmente usado quando se deseja modificar um elemento específico
+seletor '.' -> seleciona o eelemento pela class: normalmente usado quando se deseja modificar vários elementos de uma única vez */
+
+main, body {
+    height: 100%;
+    background-color: green;
+}
+/* CSS do exercício 1 */
+#exe1 {
+    max-width: max-content;
+    margin:auto;
+    background-color: aqua;
+}
+
+/* css exercicio 6 */
+@media (max-width: 600px){
+
+
+}
+
+/* exercicio 9 */
+#container {
+    display: flex;
+    flex-direction: row;
+}
+
+
