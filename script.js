@@ -30,7 +30,7 @@ console.log(typeof Number("10"))
 //     inner.innerHTML = "<h1>titulo criado</h1>"
 // }
 const felinos = ['gatos', 'onças', 'guepardos', 'leões'];
-const elimina = felinos.pop()
+felinos.pop()
 console.log(felinos);
 felinos.push('leopardos');
 console.log(felinos);
