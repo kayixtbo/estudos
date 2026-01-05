@@ -28,3 +28,31 @@ else if(valor == 0){
 else{
     console.log("número positivo")
 }
+
+// Tema 2 – Variáveis e Tipos de Dados
+
+let idade = 18
+console.log(idade)
+
+let numero1 = 0.5
+let numero2 = 5.7
+let media = (numero1 + numero2) / 2
+console.log(media)
+
+
+let anos = 25
+let name = "julio"
+let frase = `seu nome é ${name} e sua idade é ${anos}`
+console.log(frase)
+
+let valores = 89
+let quadrado = valores*valores
+console.log(quadrado)
+
+let numeros = 569
+if (numeros % 2 == 0) {
+    console.log("o numero é par")
+}
+else{
+    console.log("o numero é impar")
+}
