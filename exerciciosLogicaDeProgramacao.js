@@ -56,3 +56,31 @@ if (numeros % 2 == 0) {
 else{
     console.log("o numero é impar")
 }
+
+// Tema 3 – Operadores Aritméticos
+
+let first = 40
+let second = 6
+console.log(first + second)
+console.log(first - second)
+console.log(first * second)
+console.log(first / second)
+
+let nu = 90
+console.log( nu % 2)
+
+let base = 87
+let altura = 45
+console.log( base * altura)
+
+
+let salario = 2000
+let aumento = 10 / 100 * salario
+console.log(salario + aumento)
+
+
+let um = 60
+let dois = 15
+let tres = 47
+let m = (um + dois + tres) / 3
+console.log(m)
