@@ -171,3 +171,25 @@ else if (nota >= 5) {
 else{
     console.log("nota D")
 }
+
+
+let salaryo = 2500
+let faixa1 = 1500
+let faixa2 = 2000
+if (salaryo >= faixa2) {
+    let imposto =  20 / 100 * salaryo
+    console.log(`o valor é de ${imposto}`)
+}
+else {
+    let imposto = 10 / 100 * salaryo
+    console.log(`o valor é de ${imposto}`)
+} 
+
+
+let num = 15
+if (num % 3 == 0 && num % 5 == 0) {
+    console.log(`${num} é multiplo`)
+}
+else{
+    console.log(`${num} NÃO é multiplo`)
+}
