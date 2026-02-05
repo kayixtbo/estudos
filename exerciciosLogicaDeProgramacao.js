@@ -193,3 +193,18 @@ if (num % 3 == 0 && num % 5 == 0) {
 else{
     console.log(`${num} NÃO é multiplo`)
 }
+
+
+for (let conta = 1; conta <= 10; conta++) {
+    console.log(conta)
+}
+
+
+
+let juntar = 0
+
+for (let i = 1; i <= 100; i++) {
+    soma = soma + 1
+}
+
+console.log("o resultado da soma é", soma);
