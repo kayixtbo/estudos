@@ -208,3 +208,23 @@ for (let i = 1; i <= 100; i++) {
 }
 
 console.log("o resultado da soma é", soma);
+
+
+
+let numer = 1;
+
+while (numer <= 10) {
+  console.log(numer);
+  numer++;
+}
+
+
+let cont = 1;
+let som = 0;
+
+while (cont <= 100) {
+  som += cont;
+  cont++;
+}
+
+console.log("A soma é:", som);
